@@ -1,4 +1,5 @@
 <script>
+    export const prerender = true;
     import Title from "$lib/components/Title.svelte";
 </script>
 
