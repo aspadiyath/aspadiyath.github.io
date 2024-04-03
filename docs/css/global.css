@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Noto+Emoji:wght@300..700&display=swap');
+
+:root {
+    --text-font-family: "Poppins", sans-serif;
+    --small-font-size: 11pt;
+    --emoji-font: "Noto Emoji", emoji;
+
+    --text-weight: 300;
+    --text-font-size: 14pt;
+    --text-line-height: 1.5em;
+
+    --header-font: "Asap", sans-serif;
+    --header-line-height: 1.35em;
+    --header-weight: 700;
+    --header-size: 22pt;
+
+    --border-color: #f3f3f3;
+
+    --link-color: rgb(0, 157, 220);
+
+    --padding: 0.25em;
+    --roundedness: 0.25em;
+    --margin: 1em;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--header-font);
+    line-height: var(--header-line-height);
+    font-weight: var(--header-weight);
+    font-size: var(--header-size);
+}
+
+body {
+    font-family: var(--text-font-family);
+    font-weight: var(--text-weight);
+    font-size: var(--text-font-size);
+    line-height: var(--text-line-height);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+hr {
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+}

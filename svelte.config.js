@@ -1,16 +1,15 @@
-import adapter from "@sveltejs/adapter-static";
-// was "@sveltejs/adapter-auto"
+import adapter from '@sveltejs/adapter-static';
 
-const dev = "production" === "development";
-
-/** @type {import(""@sveltejs/kit").Config} */
-const config = {
+export default {
 	kit: {
 		adapter: adapter({
-			pages: "docs",
-			assets: "docs"
+			// default options are shown. On some platforms
+			// these options are set automatically — see below
+			pages: 'docs',
+			assets: 'docs',
+			fallback: undefined,
+			precompress: false,
+			strict: true
 		})
 	}
 };
-
-export default config;
