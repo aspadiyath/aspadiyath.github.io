@@ -8,6 +8,7 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
+		"@rollup/plugin-json": "^6.1.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-static": "^3.0.1",
 		"@sveltejs/kit": "^2.0.0",

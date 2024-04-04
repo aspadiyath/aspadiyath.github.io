@@ -1,4 +1,5 @@
 import adapter from '@sveltejs/adapter-static';
+import json from '@rollup/plugin-json'
 
 export default {
 	kit: {
@@ -11,5 +12,11 @@ export default {
 			precompress: false,
 			strict: true
 		})
-	}
+	},
+	plugins: [
+		json({
+			compact: true
+		})
+	]
 };
+

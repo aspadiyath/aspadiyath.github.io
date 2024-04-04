@@ -14,8 +14,6 @@
     publish work in Computing Education and Human-Computer Interaction communities.
 </p>
 
-<!--<h2>Discoveries</h2>-->
-
 
 <style>
     a:hover {

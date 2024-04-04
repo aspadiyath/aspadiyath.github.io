@@ -4,7 +4,7 @@
 </script>
 
 <section>
-    <img src="{headshot}" alt="Headshot of Aadarsh Padiyath"/>
+    <a href="/"><img src="{headshot}" alt="Headshot of Aadarsh Padiyath"/></a>
     <h1>Aadarsh Padiyath</h1>
     <div class="metadata">
         <a href="https://www.mypronouns.org/he-him">he/him/his</a><br/>
@@ -17,6 +17,8 @@
 <hr/>
 <nav>
     <a href="/">Research</a>
+    <a href="/publications">Publications</a>
+    <a href="/Aadarsh_Padiyath_CV.pdf">CV</a>
 </nav>
 
 <style>

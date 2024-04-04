@@ -1,0 +1,84 @@
+[
+	{
+		"id": "ug_attitudes_sj_context",
+		"kind": "refereed conference paper",
+		"authors": ["aadarsh", "Kyle Ashburn", "barbarer"],
+		"year": 2024,
+		"title": "Undergraduate Student Attitudes towards a Social Justice Context in a Programming Project",
+		"source": "ACM Technical Symposium on Computer Science Education",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3626252.3630955",
+		"contribution": "Our students supported social justice contexts and content within their programming education, and requested deeper dives and discussions that challenge their preconceived notions."
+	},
+	{
+		"id": "ug_attitudes_ethics_technical",
+		"kind": "journal article",
+		"authors": ["aadarsh"],
+		"year": 2024,
+		"title": "A Realist Review of Undergraduate Student Attitudes towards Ethical Interventions in Technical Computing Courses",
+		"source": "ACM Transactions on Computing Education",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3639572",
+		"contribution": "Students attitudes towards ethics interventions in their technical courses are complex, following many pathways. Four theories were identified to help guide interventions towards success."
+	},{
+		"id": "mimn_parsons",
+		"kind": "refereed conference paper",
+		"authors": ["barbarer", "Janice L. Pearce", "Susan H. Rodger", "Andrew Csizmadia", "Rita Garcia", "Francisco J. Gutierrez", "Konstantinos Liaskos", "aadarsh", "Michael James Scott", "David H. Smith IV", "Jayakrishnan M. Warriem", "Angela Zavaleta Burnuy"],
+		"year": 2023,
+		"title": "Multi-Institutional Multi-National Studies of Parsons Problems",
+		"source": "ACM Innovation and Technology in Computer Science Education, Working Group Track",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3623762.3633498",
+		"contribution": "This article contributes an analysis of recent Parsons problem research papers, an itemization of considerations for MIMN studies, the results from our MIMN studies of Parsons problems, and a discussion of recent and future directions for MIMN studies of Parsons problems and more generally."
+	},{
+		"id": "tsp",
+		"kind": "refereed magazine article",
+		"authors": ["mjguz", "edodoo", "baharen","tamaranf","aadarsh"],
+		"year": 2023,
+		"title": "Putting a teaspoon of programming into other subjects\n",
+		"source": "Communications of the ACM",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3587926",
+		"contribution": "Task-specific programming (TSP) languages are an easy and helpful way of incorporating programming into broader subjects."
+	},{
+		"id": "satirical_programming",
+		"kind": "refereed conference paper",
+		"authors": ["aadarsh", "tamaranf", "barbarer"],
+		"year": 2023,
+		"title": "Critiquing Computing Artifacts through Programming Satirical Python Scripts\n",
+		"source": "IEEE Research in Equity and Sustained Participation in Engineering, Computing, and Technology",
+		"publisher": "IEEE",
+		"doi": "https://doi.org/10.48550/arXiv.2312.03090",
+		"contribution": "Programming scripts containing egregious/satirized versions of Dr. Ruha Benjamin's \"glitches\" in software were a valuable way of critiquing computing artifacts."
+	},{
+		"id": "desAIner",
+		"kind": "refereed technical demonstration",
+		"authors": ["aadarsh", "Brian Magerko"],
+		"year": 2021,
+		"title": "desAIner: Exploring the Use of \"Bad\" Generative Adversarial Networks in the Ideation Process of Fashion Design",
+		"source": "ACM Creativity & Cognition",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3450741.3466636",
+		"contribution": "Some fashion designers don't like the incestuous nature of GANs trained on existing fashion, but were inspired by the amorphous images it generated."
+	},{
+		"id": "ai_exhibits",
+		"kind": "refereed conference paper",
+		"authors": ["Duri Long", "aadarsh", "Anthony Teachey", "Brian Magerko"],
+		"year": 2021,
+		"title": "The role of collaboration, creativity, and embodiment in AI learning experiences",
+		"source": "ACM Creativity & Cognition",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3450741.3465264",
+		"contribution": "Intimidation and age were two main inhibitors to collaborative interaction in AI literacy take-home museum exhibits."
+	},{
+		"id": "parqr",
+		"kind": "refereed conference paper",
+		"authors": ["India Irish", "Roy Finkelberg", "Daniel Nkemelu", "Swar Gujrania", "aadarsh", "Sumedha Raman", "Chirag Tailor", "Rosa Arriaga", "Thad Starner"],
+		"year": 2020,
+		"title": "Parqr: Automatic post suggestion in the piazza online forum to support degree seeking online masters students",
+		"source": "ACM Learning@Scale",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3386527.3405914",
+		"contribution": "Contributed a new tool, a recommendation engine, that helped students find previously answered questions on Piazza easily, reducing duplicate questions."
+	}
+]

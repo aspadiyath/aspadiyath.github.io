@@ -1,0 +1,56 @@
+[
+	{
+		"id": "tamaranf",
+		"name": "Tamara Nelson-Fromm",
+		"active": true,
+		"level": "phd",
+		"dept": "Computer Science & Engineering",
+		"url": "https://nelsonfromm.com/",
+		"startdate": 2023,
+		"enddate": null
+	},{
+		"id": "baharen",
+		"name": "Bahare Naimpour",
+		"active": true,
+		"level": "phd",
+		"dept": "Engineering Education Research",
+		"startdate": 2023,
+		"enddate": null
+	},{
+		"id": "edodoo",
+		"name": "Emma Dodoo",
+		"active": true,
+		"level": "phd",
+		"dept": "Engineering Education Research",
+		"url": "https://scholar.google.com/citations?user=QHC7aQIAAAAJ",
+		"startdate": 2023,
+		"enddate": null
+	},{
+		"id": "mjguz",
+		"name": "Mark Guzdial",
+		"active": true,
+		"level": "faculty",
+		"dept": "Program in Computing for the Arts and Sciences",
+		"url": "https://guzdial.engin.umich.edu/",
+		"startdate": 2021,
+		"enddate": null
+	},{
+		"id": "barbarer",
+		"name": "Barbara Ericson",
+		"active": true,
+		"level": "faculty",
+		"dept": "School of Information",
+		"url": "https://www.si.umich.edu/people/barbara-ericson",
+		"startdate": 2021,
+		"enddate": null
+	},{
+		"id": "aadarsh",
+		"name": "Aadarsh Padiyath",
+		"active": true,
+		"level": "director",
+		"dept": "School of Information",
+		"url": "aspadiyath.github.io",
+		"startdate": 2020,
+		"enddate": null
+	}
+]
