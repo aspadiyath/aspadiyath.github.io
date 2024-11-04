@@ -5,8 +5,8 @@
 <Title text="Research"/>
 
 <h1>
-    I study the ever-evolving relationship between students' attitudes towards and
-    engagement with computing and its artifacts.
+    I study how computing professionals develop the power and agency to create
+    positive change, from their classroom experiences to professional practice.
 </h1>
 
 <p>

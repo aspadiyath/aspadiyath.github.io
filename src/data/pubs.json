@@ -1,5 +1,15 @@
 [
 	{
+		"id": "social_shaping_theory",
+		"kind": "refereed conference paper",
+		"authors": ["aadarsh", "xyhou", "Amy Pang", "Diego Viramontes Vargas", "xjgu", "tamaranf", "ziwu", "mjguz", "barbarer"],
+		"year": 2024,
+		"title": "Insights from Social Shaping Theory: The Appropriation of Large Language Models in an Undergraduate Programming Course",
+		"source": "ACM Conference on International Computing Education Research",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3632620.3671098",
+		"contribution": "Students often internalize technological determinism narratives when deciding whether to adopt LLMs into their learning processes, however, after becoming self-aware about negative impacts on their learning, they often changed their behavior."
+	},{
 		"id": "ug_attitudes_sj_context",
 		"kind": "refereed conference paper",
 		"authors": ["aadarsh", "Kyle Ashburn", "barbarer"],

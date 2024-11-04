@@ -44,6 +44,33 @@
 		"startdate": 2021,
 		"enddate": null
 	},{
+		"id": "xjgu",
+		"name": "Xingjian (Lance) Gu",
+		"active": true,
+		"level": "phd",
+		"dept": "School of Information",
+		"url": "https://www.si.umich.edu/people/xingjian-gu",
+		"startdate": 2021,
+		"enddate": null
+	},{
+		"id": "ziwu",
+		"name": "Zihan Wu",
+		"active": true,
+		"level": "phd",
+		"dept": "School of Information",
+		"url": "https://www.zihanwu.com/",
+		"startdate": 2021,
+		"enddate": null
+	},{
+	    "id": "xyhou",
+	    "name": "Xinying Hou",
+	    "active": true,
+	    "level": "phd",
+	    "dept": "School of Information",
+	    "url": "xinyinghou.github.io",
+	    "startdate": 2020,
+	    "enddate": null
+    },{
 		"id": "aadarsh",
 		"name": "Aadarsh Padiyath",
 		"active": true,
