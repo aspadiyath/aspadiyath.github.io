@@ -67,7 +67,7 @@
 	    "active": true,
 	    "level": "phd",
 	    "dept": "School of Information",
-	    "url": "xinyinghou.github.io",
+	    "url": "https://xinyinghou.github.io",
 	    "startdate": 2020,
 	    "enddate": null
     },{
@@ -76,7 +76,7 @@
 		"active": true,
 		"level": "director",
 		"dept": "School of Information",
-		"url": "aspadiyath.github.io",
+		"url": "https://aspadiyath.github.io",
 		"startdate": 2020,
 		"enddate": null
 	}
