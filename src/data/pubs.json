@@ -1,5 +1,35 @@
 [
 	{
+		"id": "dev_of_critconindex",
+		"kind": "refereed conference paper",
+		"authors": ["aadarsh", "barbarer", "mjguz"],
+		"year": 2025,
+		"title": "Development of the Critical Reflection and Agency in Computing Index",
+		"source": "ACM CHI Conference on Human Factors in Computing Systems",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3706598.3713189",
+		"contribution": "We contribute a theory of computing ethics pedagogy, alongside the development of a scale to measure students' attitudes towards computing ethics."
+	},{
+		"id": "ses_and_llms",
+		"kind": "refereed conference paper",
+		"authors": ["Amy Pang", "aadarsh", "Diego Viramontes Vargas", "barbarer"],
+		"year": 2024,
+		"title": "Examining the Relationship between Socioeconomic Status and Beliefs about Large Language Models in an Undergraduate Programming Course",
+		"source": "ACM Virtual Global Computing Education Conference",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3649165.3690099",
+		"contribution": "Socio-economic status was positively associated with believing LLM use will lead to career success in undergraduate students."
+	},{
+		"id": "chatgpt_already_decided",
+		"kind": "invited publication",
+		"authors": ["aadarsh"],
+		"year": 2024,
+		"title": "Do I Have a Say in This, or Has ChatGPT Already Decided for Me?",
+		"source": "XRDS: Crossroads, The ACM Magazine for Students",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3688090",
+		"contribution": "We should attempt to be self-aware, set boundaries, with LLMs so that we are not as surprised by their effects when we use them."
+	},{
 		"id": "social_shaping_theory",
 		"kind": "refereed conference paper",
 		"authors": ["aadarsh", "xyhou", "Amy Pang", "Diego Viramontes Vargas", "xjgu", "tamaranf", "ziwu", "mjguz", "barbarer"],
