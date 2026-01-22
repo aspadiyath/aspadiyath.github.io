@@ -1,14 +1,54 @@
 [
 	{
+		"id": "thematic_analysis_fieldguide",
+		"kind": "refereed conference paper",
+		"authors": ["aadarsh", "tamaranf"],
+		"year": 2026,
+		"title": "Reflecting on Thematic Analysis in Computer Science Education Research: A Field Guide for Researchers and Reviewers",
+		"source": "ACM Technical Symposium on Computer Science Education",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3770762.3772512",
+		"contribution": "Clarifies three distinct approaches to thematic analysis (coding reliability, reflexive, codebook) and provides guidance for authors and reviewers to address widespread methodological confusion in CS education research. Best Paper Award."
+	},{
+		"id": "teacher_educators_debugging",
+		"kind": "refereed conference paper",
+		"authors": ["tamaranf", "aadarsh", "mjguz"],
+		"year": 2026,
+		"title": "How Teacher Educators Adapt Debugging Instruction for Non-CS Teachers in K-12 Professional Development Practices",
+		"source": "ACM Technical Symposium on Computer Science Education",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3770762.3772511",
+		"contribution": "Explores how teacher educators adapt debugging instruction for non-CS K-12 teachers in professional development, examining what debugging knowledge teachers need for alternative computing education endpoints."
+	},{
+		"id": "validation_critconindex",
+		"kind": "refereed conference paper",
+		"authors": ["aadarsh", "Casey Fiesler", "mjguz", "barbarer"],
+		"year": 2025,
+		"title": "Validation of the Critical Reflection and Agency in Computing Index: Do Computing Ethics Courses Make a Difference?",
+		"source": "ACM Conference on International Computing Education Research",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3702652.3744208",
+		"contribution": "Validates the Critical Reflection and Agency in Computing Index through two surveys (N=474, N=464), demonstrating distinct dimensions of ethical development while revealing that ethics courses improve some dimensions but also strengthen techno-solutionist beliefs."
+	},{
 		"id": "dev_of_critconindex",
 		"kind": "refereed conference paper",
-		"authors": ["aadarsh", "barbarer", "mjguz"],
+		"authors": ["aadarsh", "mjguz", "barbarer"],
 		"year": 2025,
 		"title": "Development of the Critical Reflection and Agency in Computing Index",
 		"source": "ACM CHI Conference on Human Factors in Computing Systems",
 		"publisher": "ACM",
 		"doi": "https://doi.org/10.1145/3706598.3713189",
-		"contribution": "We contribute a theory of computing ethics pedagogy, alongside the development of a scale to measure students' attitudes towards computing ethics."
+		"contribution": "We contribute a theory of computing ethics pedagogy, alongside the development of a scale to measure students' attitudes towards computing ethics. Honorable Mention - Top 5% Paper."
+	},{
+		"id": "peer_instruction_adoption",
+		"kind": "refereed conference paper",
+		"authors": ["barbarer", "xjgu", "ziwu", "Shefali Patel", "aadarsh"],
+		"year": 2025,
+		"title": "Can a Free Tool in an Ebook Platform, Searchable Question Bank, and Summer Workshop Help Instructors Adopt Peer Instruction?",
+		"source": "ACM Technical Symposium on Computer Science Education",
+		"publisher": "ACM",
+		"doi": "https://doi.org/10.1145/3641554.3701901",
+		"contribution": "Investigates whether providing instructors with a free ebook platform tool, searchable question bank, and summer workshops can encourage adoption of peer instruction by addressing barriers like lack of awareness, time, and content coverage concerns."
 	},{
 		"id": "ses_and_llms",
 		"kind": "refereed conference paper",
