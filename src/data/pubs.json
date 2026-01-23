@@ -8,7 +8,8 @@
 		"source": "ACM Technical Symposium on Computer Science Education",
 		"publisher": "ACM",
 		"doi": "https://doi.org/10.1145/3770762.3772512",
-		"contribution": "Clarifies three distinct approaches to thematic analysis (coding reliability, reflexive, codebook) and provides guidance for authors and reviewers to address widespread methodological confusion in CS education research. Best Paper Award."
+		"award": "Best Paper",
+		"contribution": "Clarifies three distinct approaches to thematic analysis (coding reliability, reflexive, codebook) and provides guidance for authors and reviewers to address widespread methodological confusion in CS education research."
 	},{
 		"id": "teacher_educators_debugging",
 		"kind": "refereed conference paper",
@@ -38,7 +39,8 @@
 		"source": "ACM CHI Conference on Human Factors in Computing Systems",
 		"publisher": "ACM",
 		"doi": "https://doi.org/10.1145/3706598.3713189",
-		"contribution": "We contribute a theory of computing ethics pedagogy, alongside the development of a scale to measure students' attitudes towards computing ethics. Honorable Mention - Top 5% Paper."
+		"award": "Honorable Mention",
+		"contribution": "We contribute a theory of computing ethics pedagogy, alongside the development of a scale to measure students' attitudes towards computing ethics."
 	},{
 		"id": "peer_instruction_adoption",
 		"kind": "refereed conference paper",

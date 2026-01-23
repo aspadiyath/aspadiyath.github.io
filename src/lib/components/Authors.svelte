@@ -11,4 +11,4 @@
     {#if collaborator === undefined}{author}{:else if collaborator.url === undefined}{
         collaborator.name
     }{:else}<a href="{collaborator.id === 'aadarsh' ? '/': collaborator.url}"
-    >{collaborator.name}</a>{/if}{index < paper.authors.length - 1 ? ", " : ""}{/each}
+    >{#if collaborator.id === 'aadarsh'}<strong>{collaborator.name}</strong>{:else}{collaborator.name}{/if}</a>{/if}{index < paper.authors.length - 1 ? ", " : ""}{/each}

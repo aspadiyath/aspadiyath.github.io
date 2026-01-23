@@ -5,11 +5,37 @@
 
     let publications = [];
     publications = pub_dict.default;
+
+    // Group publications by year
+    let publicationsByYear = {};
+    publications.forEach(pub => {
+        if (!publicationsByYear[pub.year]) {
+            publicationsByYear[pub.year] = [];
+        }
+        publicationsByYear[pub.year].push(pub);
+    });
+
+    // Get sorted years (descending)
+    let years = Object.keys(publicationsByYear).sort((a, b) => b - a);
+
+    // Year milestones
+    const yearMilestones = {
+        2026: "2026 - Graduating with PhD in Information",
+        2021: "2021 - Graduated with Master's in Computer Science; Began PhD",
+        2020: "2020 - Began Master's Degree"
+    };
+
+    function getYearHeader(year) {
+        return yearMilestones[year] || year;
+    }
 </script>
 
 <Title text="Publications" />
 
 <h1> These are my academic publications. </h1>
+<p>
+    I have published {publications.length} peer-reviewed papers!
+</p>
 <p>
     You can see who's citing them on
     <a href="https://scholar.google.com/citations?user=uZf5ZssAAAAJ"
@@ -24,8 +50,11 @@
 <hr />
 
 <section id="publications">
-    {#each publications as publication}
-        <Publication paper={publication} />
+    {#each years as year}
+        <h2>{getYearHeader(year)}</h2>
+        {#each publicationsByYear[year] as publication}
+            <Publication paper={publication} />
+        {/each}
     {/each}
 </section>
 
