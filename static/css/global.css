@@ -17,7 +17,8 @@
 
     --border-color: #f3f3f3;
 
-    --link-color: rgb(0, 157, 220);
+    --light-link-color: #d5e9ff;
+    --link-color: #007bff;
 
     --padding: 0.25em;
     --roundedness: 0.25em;

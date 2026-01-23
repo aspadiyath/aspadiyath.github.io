@@ -1,0 +1,56 @@
+[
+	{
+		"id": "ethics_attitudes",
+		"title": "How can we understand and measure students' attitudes towards computing ethics?",
+		"description": "This project develops theory and measurement tools to understand how students think about ethics in computing. Through the development and validation of the Critical Reflection and Agency in Computing Index, we explore how students develop critical consciousness about technology's societal impacts and their own agency to create change.",
+		"theme": "Computing Ethics Education",
+		"status": "current",
+		"startYear": 2023,
+		"publications": ["dev_of_critconindex", "validation_critconindex", "ug_attitudes_ethics_technical", "ug_attitudes_sj_context", "satirical_programming"]
+	},
+	{
+		"id": "llm_appropriation",
+		"title": "How do students navigate using LLMs in computing education?",
+		"description": "This project examines how students adopt, adapt, and make sense of large language models in their learning. We investigate the interplay between students' beliefs, socioeconomic backgrounds, and actual usage patterns, while exploring how students can develop self-awareness about LLMs' impacts on their learning.",
+		"theme": "AI in Computing Education",
+		"status": "current",
+		"startYear": 2024,
+		"publications": ["social_shaping_theory", "ses_and_llms", "chatgpt_already_decided"]
+	},
+	{
+		"id": "k12_teacher_pd",
+		"title": "How can we better support K-12 teachers in computing education?",
+		"description": "This project explores professional development for K-12 teachers, particularly those without formal CS backgrounds.",
+		"theme": "K-12 Teacher Professional Development",
+		"status": "past",
+		"startYear": 2023,
+		"publications": ["teacher_educators_debugging", "peer_instruction_adoption", "tsp"]
+	},
+	{
+		"id": "computational_creativity",
+		"title": "What is the relationship between creativity and AI tools?",
+		"description": "This project explores how AI can support and inspire creative processes, particularly examining when 'bad' AI outputs might be more valuable than polished ones. We investigate how designers and learners engage with AI tools in creative contexts and what role embodiment and collaboration play in AI learning experiences.",
+		"theme": "Computational Creativity & AI Literacy",
+		"status": "past",
+		"startYear": 2020,
+		"publications": ["desAIner", "ai_exhibits"]
+	},
+	{
+		"id": "online_learning_tools",
+		"title": "How can we design tools to support students' online learning experiences?",
+		"description": "This project develops and studies tools that enhance online learning environments. We explore both new pedagogical approaches (like Parsons problems) and recommendation systems that help students navigate existing resources more effectively.",
+		"theme": "Educational Technology & Tools",
+		"status": "past",
+		"startYear": 2020,
+		"publications": ["mimn_parsons", "parqr"]
+	},
+	{
+		"id": "research_methods",
+		"title": "Improving research methods in computing education",
+		"description": "This work aims to improve the rigor and clarity of research practices in the computing education research community.",
+		"theme": "Computing Education Research Methods",
+		"status": "current",
+		"startYear": 2024,
+		"publications": ["thematic_analysis_fieldguide"]
+	}
+]
