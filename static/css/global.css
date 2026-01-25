@@ -44,6 +44,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 hr {
     margin-top: var(--margin);
     margin-bottom: var(--margin);
