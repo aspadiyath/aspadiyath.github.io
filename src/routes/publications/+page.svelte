@@ -6,9 +6,13 @@
     let publications = [];
     publications = pub_dict.default;
 
-    // Group publications by year
+    // Separate in-progress and published papers
+    let inProgressPapers = publications.filter(pub => pub.status === "in progress");
+    let publishedPapers = publications.filter(pub => pub.status !== "in progress");
+
+    // Group published publications by year
     let publicationsByYear = {};
-    publications.forEach(pub => {
+    publishedPapers.forEach(pub => {
         if (!publicationsByYear[pub.year]) {
             publicationsByYear[pub.year] = [];
         }
@@ -34,7 +38,7 @@
 
 <h1> These are my academic publications. </h1>
 <p>
-    I have published {publications.length} peer-reviewed papers!
+    I have published {publishedPapers.length} peer-reviewed papers!
 </p>
 <p>
     You can see who's citing them on
@@ -48,6 +52,16 @@
 </p>
 
 <hr />
+
+{#if inProgressPapers.length > 0}
+    <section id="in-progress">
+        <h2>In Progress</h2>
+        {#each inProgressPapers as publication}
+            <Publication paper={publication} />
+        {/each}
+    </section>
+    <hr />
+{/if}
 
 <section id="publications">
     {#each years as year}

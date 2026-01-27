@@ -1,5 +1,23 @@
 [
 	{
+		"id": "genai_contracts",
+		"status": "in progress",
+		"title": "A paper on the use of GenAI in a programming course",
+		"source": "under review"
+	},
+	{
+		"id": "adversarial_thinking",
+		"status": "in progress",
+		"title": "A paper on adversarial thinking",
+		"source": "under review"
+	},
+	{
+		"id": "teaching_empathy_ethics",
+		"status": "in progress",
+		"title": "A paper on teaching empathy and ethics",
+		"source": "under review"
+	},
+	{
 		"id": "thematic_analysis_fieldguide",
 		"kind": "refereed conference paper",
 		"authors": ["aadarsh", "tamaranf"],
