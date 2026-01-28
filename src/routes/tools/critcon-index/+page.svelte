@@ -190,7 +190,7 @@
         <li>We recommend using a 6-point Likert scale format (from "Strongly Disagree" to "Strongly Agree")</li>
         <li>Administration time: approximately 5-15 minutes</li>
         <li>Can be administered online or in paper format</li>
-        <li><a href="https://docs.google.com/forms/u/1/d/1GcrBhXXPnx1tJyuTPhen8QgwuOArKsdm3kHT2CS-sWk/copy">Copy a ready-made Google Form version</a> to use as a starting point for online administration</li>
+        <li><a href="https://docs.google.com/forms/d/1GcrBhXXPnx1tJyuTPhen8QgwuOArKsdm3kHT2CS-sWk/template/preview">Copy a ready-made Google Form version</a> to use as a starting point for online administration</li>
     </ul>
 
     <h3>Scoring & Analysis</h3>
