@@ -10,12 +10,8 @@
 <Title text="Tools" />
 
 <h1>
-    These are validated tools and interventions developed through my research.
+    These are tools and interventions developed through my research.
 </h1>
-
-<p>
-    I enjoy developing tools and interventions that support computer science education research.
-</p>
 
 <hr />
 
