@@ -8,9 +8,6 @@
     </a><span class="dot">&sdot;</span>
     <a href="https://medium.com/@the_ideal_1">
         <Emoji symbol="📝"/>
-    </a><span class="dot">&sdot;</span>
-    <a href="https://twitter.com/@the_ideal_1">
-        <Emoji symbol="🐥"/>
     </a>
 </span>
 
