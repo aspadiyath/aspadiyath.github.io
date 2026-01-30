@@ -19,6 +19,7 @@
     <a href="/">Research</a>
     <a href="/publications">Publications</a>
     <a href="/tools">Tools</a>
+    <a href="/writing">Writing</a>
     <a href="/Aadarsh_Padiyath_CV.pdf">CV</a>
 </nav>
 
