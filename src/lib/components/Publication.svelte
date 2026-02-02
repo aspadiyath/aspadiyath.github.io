@@ -1,7 +1,10 @@
 <script>
     import Authors from "$lib/components/Authors.svelte";
+    import * as tools_dict from '/src/data/tools.json';
 
     export let paper;
+
+    $: relatedTools = tools_dict.default.filter(t => t.papers && t.papers.includes(paper.id));
 </script>
 
 {#if paper.status === "in progress"}
@@ -35,6 +38,9 @@
                 <small>{paper.contribution}</small>
             </span>
         {/if}
+        {#if relatedTools.length > 0}
+            <br /><small class="related-tool">{#each relatedTools as tool, i}{#if i > 0}, {/if}{tool.type}: <a href={tool.link}>{tool.name}</a>{/each}</small>
+        {/if}
     </div>
 {/if}
 
@@ -54,5 +60,9 @@
     .award-badge {
         margin-left: 8px;
         font-weight: bold;
+    }
+
+    .related-tool {
+        font-style: italic;
     }
 </style>
