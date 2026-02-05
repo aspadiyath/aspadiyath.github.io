@@ -2,7 +2,7 @@
     {
         "id": "critcon-index",
         "name": "Critical Reflection and Agency in Computing Index",
-        "description": "A validated psychometric instrument to measure computing students' ethical development through critical consciousness. This 31-item index measures critical reflection and agency across five subscales with strong reliability (α ranging from .63 to .89).",
+        "description": "A psychometric instrument with evidence for validity to measure computing students' attitudes and perspectives toward ethical development. Grounded in Critically Conscious Computing theory and Paulo Freire's concept of conscientização, this index helps educators understand and track students' development of both critical reflection (awareness of socio-technical issues) and critical agency (confidence and power to address these issues).",
         "type": "Index User Guide",
         "year": 2025,
         "link": "/tools/critcon-index",

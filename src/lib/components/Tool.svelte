@@ -1,29 +1,35 @@
 <script>
-    export let name;
-    export let description;
-    export let type = "";
-    export let year = "";
+    import * as tools_dict from '/src/data/tools.json';
+
+    export let id;
+
+    let tools = tools_dict.default;
+    $: tool = tools.find((t) => t.id === id);
 </script>
 
-<div class="tool-header">
-    <h1>{name}</h1>
-    <div class="tool-meta">
-        {#if type}
-            <span class="tool-type">{type}</span>
-        {/if}
-        {#if year}
-            <span class="tool-year">{year}</span>
-        {/if}
+{#if tool}
+    <div class="tool-header">
+        <h1>{tool.name}</h1>
+        <div class="tool-meta">
+            {#if tool.type}
+                <span class="tool-type">{tool.type}</span>
+            {/if}
+            {#if tool.year}
+                <span class="tool-year">{tool.year}</span>
+            {/if}
+        </div>
     </div>
-</div>
 
-{#if description}
-    <p class="tool-description">{description}</p>
+    {#if tool.description}
+        <p class="tool-description">{tool.description}</p>
+    {/if}
+
+    <hr />
+
+    <slot></slot>
+{:else}
+    <p>Tool not found: {id}</p>
 {/if}
-
-<hr />
-
-<slot></slot>
 
 <style>
     .tool-header {

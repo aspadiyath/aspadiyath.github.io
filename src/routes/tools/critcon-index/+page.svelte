@@ -5,12 +5,7 @@
 
 <Title text="Critical Reflection and Agency in Computing Index" />
 
-<Tool
-    name="Critical Reflection and Agency in Computing Index"
-    description="A psychometric instrument with evidence for validity to measure computing students' attitudes and perspectives toward ethical development. Grounded in Critically Conscious Computing theory and Paulo Freire's concept of conscientização, this index helps educators understand and track students' development of both critical reflection (awareness of socio-technical issues) and critical agency (confidence and power to address these issues)."
-    type="Assessment Instrument"
-    year="2025"
->
+<Tool id="critcon-index">
 
 <section id="related-papers">
     <h2>Related Papers</h2>
