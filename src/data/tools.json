@@ -7,5 +7,14 @@
         "year": 2025,
         "link": "/tools/critcon-index",
         "papers": ["dev_of_critconindex", "validation_critconindex"]
+    },
+    {
+        "id": "genai-contract",
+        "name": "GenAI Contract",
+        "description": "A structured reflection intervention that scaffolds students' intentional decision-making about when and how to use Generative AI in programming courses. Grounded in self-regulated learning theory and harm reduction philosophy, students articulate personal learning goals, create personalized usage guidelines, and reflect on alignment at strategic checkpoints across the semester. The contract is non-binding and graded for completion only, emphasizing intentionality over policing.",
+        "type": "Curriculum Intervention",
+        "year": 2025,
+        "link": "/tools/genai-contract",
+        "papers": ["genai_contracts"]
     }
 ]

@@ -2,8 +2,12 @@
 	{
 		"id": "genai_contracts",
 		"status": "in progress",
-		"title": "A paper on the use of GenAI in a programming course",
-		"source": "under review"
+		"kind": "refereed conference paper",
+		"authors": ["aadarsh", "jesishen", "barbarer"],
+		"year": 2026,
+		"title": "Self-Regulated Personal Contracts as a Harm Reduction Approach to Generative AI in Undergraduate Programming Education",
+		"source": "ACM Conference on Innovation and Technology in Computer Science Education",
+		"publisher": "ACM"
 	},
 	{
 		"id": "adversarial_thinking",

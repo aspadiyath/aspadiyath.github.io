@@ -15,7 +15,7 @@
 		"theme": "AI in Computing Education",
 		"status": "current",
 		"startYear": 2024,
-		"publications": ["social_shaping_theory", "ses_and_llms", "chatgpt_already_decided"]
+		"publications": ["social_shaping_theory", "ses_and_llms", "chatgpt_already_decided", "genai_contracts"]
 	},
 	{
 		"id": "k12_teacher_pd",

@@ -71,6 +71,15 @@
 	    "startdate": 2020,
 	    "enddate": null
     },{
+		"id": "jesishen",
+		"name": "Jessica Shen",
+		"active": false,
+		"level": "undergrad",
+		"dept": "School of Information",
+		"url": "https://www.linkedin.com/in/ux-jessica-shen",
+		"startdate": 2025,
+		"enddate": 2025
+	},{
 		"id": "aadarsh",
 		"name": "Aadarsh Padiyath",
 		"active": true,
