@@ -171,11 +171,6 @@
         margin-bottom: 0.5em;
     }
 
-    .download-link {
-        font-size: 0.9em;
-        font-weight: 600;
-    }
-
     #related-paper ul {
         list-style: none;
         padding-left: 0;

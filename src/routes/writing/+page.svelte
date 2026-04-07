@@ -10,7 +10,7 @@
 
 <Title text="Writing" />
 
-<h1>These are some of my notes, ramblings, and links to my <a href="https://medium.com/@the_ideal_1" target="_blank" rel="noopener noreferrer">blog posts</a>.</h1>
+<h1>These are some of my notes, ramblings, and links to my <a href="https://ideallab.substack.com?utm_source=aspadiyath.github.io" target="_blank" rel="noopener noreferrer">blog posts</a>.</h1>
 
 <hr />
 
