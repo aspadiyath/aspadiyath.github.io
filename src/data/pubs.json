@@ -1,13 +1,14 @@
 [
 	{
 		"id": "genai_contracts",
-		"status": "in progress",
 		"kind": "refereed conference paper",
 		"authors": ["aadarsh", "jesishen", "barbarer"],
 		"year": 2026,
 		"title": "Self-Regulated Personal Contracts as a Harm Reduction Approach to Generative AI in Undergraduate Programming Education",
 		"source": "ACM Conference on Innovation and Technology in Computer Science Education",
-		"publisher": "ACM"
+		"publisher": "ACM",
+		"doi": "https://arxiv.org/abs/2604.03256",
+		"contribution": "A self-regulated learning contract intervention grounded in harm reduction helped students without established GenAI practices form intentional approaches, but awareness alone did not sustain behavior change as students who valued their guidelines still abandoned them under various pressures."
 	},
 	{
 		"id": "adversarial_thinking",
