@@ -8,6 +8,9 @@
     </a><span class="dot">&sdot;</span>
     <a href="https://ideallab.substack.com/">
         <Emoji symbol="📝"/>
+    </a><span class="dot">&sdot;</span>
+    <a href="https://scholar.google.com/citations?user=uZf5ZssAAAAJ&hl=en">
+        <Emoji symbol="🎓"/>
     </a>
 </span>
 
