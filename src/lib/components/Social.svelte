@@ -6,7 +6,7 @@
     <a href="mailto:aadarsh@umich.edu">
         <Emoji symbol="📧"/>
     </a><span class="dot">&sdot;</span>
-    <a href="https://medium.com/@the_ideal_1">
+    <a href="https://ideallab.substack.com/">
         <Emoji symbol="📝"/>
     </a>
 </span>
