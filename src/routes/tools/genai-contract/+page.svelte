@@ -159,7 +159,7 @@
     h2 {
         margin-top: 1.5em;
         margin-bottom: 0.8em;
-        border-bottom: 2px solid #eee;
+        border-bottom: 1px solid var(--border-color);
         padding-bottom: 0.3em;
     }
 
@@ -197,33 +197,33 @@
 
     .materials-table th,
     .materials-table td {
-        border: 1px solid #dee2e6;
+        border: 1px solid var(--border-color);
         padding: 0.6em 0.8em;
         text-align: left;
         vertical-align: top;
     }
 
     .materials-table th {
-        background-color: #f0f0f0;
+        background-color: var(--surface);
     }
 
     .materials-table td:first-child {
         white-space: nowrap;
-        color: #666;
+        color: var(--text-muted);
         font-size: 0.9em;
     }
 
     .materials-note {
         font-size: 0.9em;
-        color: #555;
+        color: var(--text-muted);
         font-style: italic;
         margin-top: 0.5em;
     }
 
     .code-block {
-        background-color: #f8f9fa;
-        border: 1px solid #dee2e6;
-        border-left: 4px solid #6c757d;
+        background-color: var(--surface);
+        border: 1px solid var(--border-color);
+        border-left: 4px solid var(--text-muted);
         border-radius: var(--roundedness);
         padding: 1em 1.2em;
         margin: 1em 0;
@@ -234,10 +234,10 @@
     }
 
     .citation-box {
-        background-color: #f8f9fa;
+        background-color: var(--surface);
         padding: 1.5em;
         border-radius: var(--roundedness);
-        border: 1px solid #dee2e6;
+        border: 1px solid var(--border-color);
         font-family: 'Georgia', serif;
         line-height: 1.6;
     }

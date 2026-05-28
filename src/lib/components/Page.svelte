@@ -43,7 +43,7 @@
 
         .content {
             margin-top: 10em;
-            max-width: 40em;
+            max-width: 44em;
         }
     }
 </style>

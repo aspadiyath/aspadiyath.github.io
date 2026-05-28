@@ -45,7 +45,7 @@
         gap: 1em;
         flex-wrap: wrap;
         font-size: var(--small-font-size);
-        color: #666;
+        color: var(--text-muted);
     }
 
     .tool-type {

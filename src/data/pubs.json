@@ -1,5 +1,24 @@
 [
 	{
+		"id": "adversarial_thinking",
+		"status": "accepted",
+		"kind": "refereed conference paper",
+		"authors": ["aadarsh", "brookec", "barbarer", "mjguz"],
+		"year": 2026,
+		"title": "Creative Exploration Meets Time Constraints: Academic and Professional Approaches to Adversarial Thinking",
+		"source": "ACM Conference on Innovation and Technology in Computer Science Education",
+		"publisher": "ACM",
+		"note": "Accepted at ITiCSE 2026. Proceedings forthcoming July 2026."
+	},
+	{
+		"id": "teaching_empathy_ethics",
+		"status": "accepted",
+		"year": 2026,
+		"title": "WIP: Teaching Empathy, Leadership, and Ethics in Computing",
+		"source": "American Society for Engineering Education Annual Conference",
+		"note": "Accepted at ASEE 2026. Proceedings forthcoming."
+	},
+	{
 		"id": "genai_contracts",
 		"kind": "refereed conference paper",
 		"authors": ["aadarsh", "jesishen", "barbarer"],
@@ -11,15 +30,21 @@
 		"contribution": "A self-regulated learning contract intervention grounded in harm reduction helped students without established GenAI practices form intentional approaches, but awareness alone did not sustain behavior change as students who valued their guidelines still abandoned them under various pressures."
 	},
 	{
-		"id": "adversarial_thinking",
+		"id": "genai_contracts_followup",
 		"status": "in progress",
-		"title": "A paper on adversarial thinking",
+		"title": "A paper on student GenAI reliance boundaries in programming education",
+		"source": "in preparation"
+	},
+	{
+		"id": "ethical_agency_cs_education",
+		"status": "in progress",
+		"title": "A paper on ethical agency in software development and CS ethics education",
 		"source": "under review"
 	},
 	{
-		"id": "teaching_empathy_ethics",
+		"id": "ethics_critical_software_design",
 		"status": "in progress",
-		"title": "A paper on teaching empathy and ethics",
+		"title": "A paper on ethics in a critical software design course",
 		"source": "under review"
 	},
 	{

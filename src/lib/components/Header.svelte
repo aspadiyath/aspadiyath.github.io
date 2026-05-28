@@ -1,6 +1,7 @@
 <script>
     import headshot from '/images/headshot.png';
     import Social from "$lib/components/Social.svelte";
+    import { page } from '$app/stores';
 </script>
 
 <section>
@@ -16,10 +17,10 @@
 </section>
 <hr/>
 <nav>
-    <a href="/">Research</a>
-    <a href="/publications">Publications</a>
-    <a href="/tools">Tools</a>
-    <a href="/writing">Writing</a>
+    <a href="/" class:active={$page.url.pathname === '/'}>Research</a>
+    <a href="/publications" class:active={$page.url.pathname.startsWith('/publications')}>Publications</a>
+    <a href="/tools" class:active={$page.url.pathname.startsWith('/tools')}>Tools</a>
+    <a href="/writing" class:active={$page.url.pathname.startsWith('/writing')}>Writing</a>
     <a href="/Aadarsh_Padiyath_CV.pdf">CV</a>
 </nav>
 
@@ -33,7 +34,6 @@
         margin-bottom: 1em;
         max-width: 10em;
     }
-
 
     nav, .metadata {
         line-height: 1.7;
@@ -54,8 +54,13 @@
     }
 
     :global(nav > a:hover) {
-        background-color: var(--border-color);
-        text-decoration: underline;
+        background-color: var(--surface);
+        text-decoration: none;
     }
 
+    :global(nav > a.active) {
+        font-weight: 500;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
 </style>

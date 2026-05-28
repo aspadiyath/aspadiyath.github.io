@@ -307,14 +307,14 @@
     h2 {
         margin-top: 1.5em;
         margin-bottom: 0.8em;
-        border-bottom: 2px solid #eee;
+        border-bottom: 1px solid var(--border-color);
         padding-bottom: 0.3em;
     }
 
     h3 {
         margin-top: 1.2em;
         margin-bottom: 0.5em;
-        color: #333;
+        color: var(--text-color);
     }
 
     h4 {
@@ -326,7 +326,7 @@
         margin-top: 1em;
         margin-bottom: 0.5em;
         font-size: 0.95em;
-        color: #444;
+        color: var(--text-muted);
     }
 
     .framework-list {
@@ -343,7 +343,7 @@
     }
 
     .construct-section > h3 {
-        background-color: #f0f0f0;
+        background-color: var(--surface);
         padding: 0.5em 0.8em;
         border-radius: var(--roundedness);
         margin-bottom: 0.5em;
@@ -354,12 +354,12 @@
     }
 
     .question-prompt {
-        background-color: #e8f4f8;
+        background-color: var(--light-link-color);
         padding: 1em;
         border-radius: var(--roundedness);
         margin-bottom: 1em;
         font-style: italic;
-        border-left: 4px solid #17a2b8;
+        border-left: 4px solid var(--link-color);
     }
 
     .question-prompt strong {
@@ -367,7 +367,7 @@
     }
 
     .subscale {
-        background-color: #f8f9fa;
+        background-color: var(--surface);
         padding: 1em;
         margin: 1em 0;
         border-radius: var(--roundedness);
@@ -380,7 +380,7 @@
     }
 
     .subscale-group h5 {
-        border-bottom: 1px solid #ddd;
+        border-bottom: 1px solid var(--border-color);
         padding-bottom: 0.3em;
     }
 
@@ -401,23 +401,23 @@
     }
 
     .comparison {
-        color: #6c757d;
+        color: var(--text-muted);
         font-weight: 600;
         font-size: 0.85em;
     }
 
     .reliability {
-        color: #666;
+        color: var(--text-muted);
         font-weight: normal;
         font-size: 0.85em;
     }
 
     .legend {
-        background-color: #f8f9fa;
+        background-color: var(--surface);
         padding: 1em;
         margin-top: 2em;
         border-radius: var(--roundedness);
-        border: 1px solid #dee2e6;
+        border: 1px solid var(--border-color);
     }
 
     .legend h4 {
@@ -443,13 +443,13 @@
 
     .terminology-table th,
     .terminology-table td {
-        border: 1px solid #dee2e6;
+        border: 1px solid var(--border-color);
         padding: 0.6em 0.8em;
         text-align: left;
     }
 
     .terminology-table th {
-        background-color: #f0f0f0;
+        background-color: var(--surface);
     }
 
     .terminology-table td:first-child {
@@ -457,11 +457,11 @@
     }
 
     .citation-box {
-        background-color: #f8f9fa;
+        background-color: var(--surface);
         padding: 1.5em;
         margin-bottom: 1.5em;
         border-radius: var(--roundedness);
-        border: 1px solid #dee2e6;
+        border: 1px solid var(--border-color);
         font-family: 'Georgia', serif;
         line-height: 1.6;
     }
@@ -470,7 +470,7 @@
         font-size: 1em;
         margin-top: 1em;
         margin-bottom: 0.5em;
-        color: #666;
+        color: var(--text-muted);
         font-weight: 600;
     }
 

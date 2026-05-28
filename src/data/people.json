@@ -71,10 +71,18 @@
 	    "startdate": 2020,
 	    "enddate": null
     },{
+		"id": "brookec",
+		"name": "Brooke Compton",
+		"active": true,
+		"level": "bachelors",
+		"dept": "School of Information",
+		"startdate": 2026,
+		"enddate": null
+	},{
 		"id": "jesishen",
 		"name": "Jessica Shen",
 		"active": false,
-		"level": "undergrad",
+		"level": "masters",
 		"dept": "School of Information",
 		"url": "https://www.linkedin.com/in/ux-jessica-shen",
 		"startdate": 2025,
