@@ -6,16 +6,19 @@
     <div class="tool-header">
         <h3><a href={tool.link}>{tool.name}</a></h3>
     </div>
-    <div class="tool-meta">{tool.type} • {tool.year}</div>
+    <div class="tool-meta">{tool.type} · {tool.year}</div>
 
     <p class="description">{tool.description}</p>
 </div>
 
 <style>
     .tool {
-        margin-bottom: 40px;
-        padding-bottom: 30px;
-        border-bottom: 2px solid #eee;
+        padding: 1.1em 1.3em;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .tool:last-child {
+        border-bottom: none;
     }
 
     .tool-header {
@@ -23,27 +26,16 @@
     }
 
     h3 {
-        margin: 0;
-        font-size: 1.3em;
-    }
-
-    .tool-header h3 a {
-        color: var(--link-color) !important;
-        text-decoration: none;
-    }
-
-    .tool-header h3 a:hover {
-        text-decoration: underline;
+        margin: 0 0 4px 0;
     }
 
     .tool-meta {
-        color: #666;
-        font-size: 0.9em;
-        margin-bottom: 12px;
+        color: var(--text-muted);
+        font-size: 0.875em;
+        margin-bottom: 8px;
     }
 
     .description {
-        margin: 12px 0;
-        line-height: 1.6;
+        margin: 0;
     }
 </style>

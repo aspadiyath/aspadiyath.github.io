@@ -16,7 +16,23 @@
 <hr />
 
 <section id="tools">
-    {#each tools as tool}
-        <ToolItem {tool} />
-    {/each}
+    <div class="pub-cards">
+        {#each tools as tool}
+            <div class="item-list">
+                <ToolItem {tool} />
+            </div>
+        {/each}
+    </div>
 </section>
+
+<style>
+    .pub-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .pub-cards :global(.item-list) {
+        margin-bottom: 0;
+    }
+</style>

@@ -24,7 +24,7 @@
 
     // Year milestones
     const yearMilestones = {
-        2026: "2026 - Graduating with PhD in Information",
+        2026: "2026 - Graduating with PhD in Information; Began Postdoctoral Research Fellowship",
         2021: "2021 - Graduated with Master's in Computer Science; Began PhD",
         2020: "2020 - Began Master's Degree"
     };
@@ -56,9 +56,13 @@
 {#if inProgressPapers.length > 0}
     <section id="in-progress">
         <h2>In Progress</h2>
-        {#each inProgressPapers as publication}
-            <Publication paper={publication} />
-        {/each}
+        <div class="pub-cards">
+            {#each inProgressPapers as publication}
+                <div class="item-list in-progress-card">
+                    <Publication paper={publication} />
+                </div>
+            {/each}
+        </div>
     </section>
     <hr />
 {/if}
@@ -66,10 +70,48 @@
 <section id="publications">
     {#each years as year}
         <h2>{getYearHeader(year)}</h2>
-        {#each publicationsByYear[year] as publication}
-            <Publication paper={publication} />
-        {/each}
+        <div class="pub-cards">
+            {#each publicationsByYear[year] as publication}
+                <div class="item-list">
+                    <Publication paper={publication} />
+                </div>
+            {/each}
+        </div>
     {/each}
 </section>
+
+<style>
+    h2 {
+        font-size: 0.82em;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        margin-top: 1.75em;
+        margin-bottom: 0.65em;
+        padding-bottom: 0.4em;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    #in-progress h2 {
+        margin-top: 0;
+    }
+
+    .pub-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        margin-bottom: 0.75em;
+    }
+
+    .pub-cards :global(.item-list) {
+        margin-bottom: 0;
+    }
+
+    .in-progress-card {
+        background: transparent;
+        border-style: dotted;
+    }
+</style>
 
 

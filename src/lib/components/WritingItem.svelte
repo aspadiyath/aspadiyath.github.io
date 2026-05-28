@@ -10,33 +10,25 @@
 
 <style>
     .post {
-        margin-bottom: 40px;
-        padding-bottom: 30px;
-        border-bottom: 2px solid #eee;
+        padding: 1.1em 1.3em;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .post:last-child {
+        border-bottom: none;
     }
 
     h3 {
-        margin: 0;
-        font-size: 1.3em;
-    }
-
-    h3 a {
-        color: var(--link-color) !important;
-        text-decoration: none;
-    }
-
-    h3 a:hover {
-        text-decoration: underline;
+        margin: 0 0 4px 0;
     }
 
     .post-meta {
-        color: #666;
-        font-size: 0.9em;
-        margin-bottom: 12px;
+        color: var(--text-muted);
+        font-size: 0.875em;
+        margin-bottom: 8px;
     }
 
     .description {
-        margin: 12px 0;
-        line-height: 1.6;
+        margin: 0;
     }
 </style>

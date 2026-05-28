@@ -7,10 +7,12 @@
     $: relatedTools = tools_dict.default.filter(t => t.papers && t.papers.includes(paper.id));
 </script>
 
-{#if paper.status === "in progress"}
+{#if paper.status === "in progress" || paper.status === "accepted"}
     <div id="{paper.id}" class="paper in-progress">
         {paper.title}
-        {#if paper.source}
+        {#if paper.note}
+            <br /><em>{paper.note}</em>
+        {:else if paper.source}
             <br /><em>{paper.source}</em>
         {/if}
     </div>
@@ -46,20 +48,30 @@
 
 <style>
     .paper {
-        padding-bottom: 20px;
-        margin-bottom: 20px;
-        border-bottom: 1px solid #e6f2ff;
+        padding: 0.9em 1.1em;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .paper:last-child {
+        border-bottom: none;
     }
 
     .paper.in-progress {
-        border-bottom: none;
-        padding-bottom: 10px;
-        margin-bottom: 10px;
+        color: var(--text-muted);
+        font-style: italic;
+        padding: 0.75em 1em;
     }
 
     .award-badge {
-        margin-left: 8px;
-        font-weight: bold;
+        margin-left: 0.3em;
+        display: inline-block;
+        padding: 0.15em 0.5em;
+        border-radius: 0.3em;
+        background: var(--light-link-color);
+        border: 1px solid transparent;
+        color: var(--link-color);
+        font-weight: 500;
+        white-space: nowrap;
     }
 
     .related-tool {

@@ -15,7 +15,23 @@
 <hr />
 
 <section id="writing">
-    {#each posts as post}
-        <WritingItem {post} />
-    {/each}
+    <div class="pub-cards">
+        {#each posts as post}
+            <div class="item-list">
+                <WritingItem {post} />
+            </div>
+        {/each}
+    </div>
 </section>
+
+<style>
+    .pub-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .pub-cards :global(.item-list) {
+        margin-bottom: 0;
+    }
+</style>

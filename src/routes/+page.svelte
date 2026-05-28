@@ -52,7 +52,13 @@
     }
 
     #projects h2 {
-        margin-bottom: 25px;
-        border-bottom: 2px solid #eee;
+        font-size: 0.78em;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        margin-bottom: 1em;
+        border-bottom: none;
+        padding-bottom: 0;
     }
 </style>
