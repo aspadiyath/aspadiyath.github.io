@@ -27,8 +27,7 @@
 <Title text="Research"/>
 
 <h1>
-    I study how computing professionals develop the power and agency to create
-    positive change, from their classroom experiences to professional practice.
+    I design and study interventions to help future computing professionals develop power and agency over technology and its role in society.
 </h1>
 
 <p>
