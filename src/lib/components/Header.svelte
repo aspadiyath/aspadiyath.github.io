@@ -9,7 +9,7 @@
     <h1>Aadarsh Padiyath</h1>
     <div class="metadata">
         <a href="https://www.mypronouns.org/he-him">he/him/his</a><br/>
-        <a href="https://rackham.umich.edu/navigating-your-degree/candidacy-requirements/">Ph.D. Candidate</a><br/>
+        Postdoctoral Research Fellow<br/>
         <a href="https://si.umich.edu">The School of Information</a><br/>
         <a href="https://umich.edu">University of Michigan, Ann Arbor</a>
     </div>
