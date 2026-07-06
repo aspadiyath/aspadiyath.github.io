@@ -6,7 +6,7 @@
 		"theme": "Computing Ethics Education",
 		"status": "current",
 		"startYear": 2023,
-		"publications": ["dev_of_critconindex", "validation_critconindex", "ug_attitudes_ethics_technical", "ug_attitudes_sj_context", "satirical_programming"]
+		"publications": ["dev_of_critconindex", "validation_critconindex", "ug_attitudes_ethics_technical", "ug_attitudes_sj_context", "satirical_programming", "teaching_empathy_ethics"]
 	},
 	{
 		"id": "llm_appropriation",
@@ -46,11 +46,11 @@
 	},
 	{
 		"id": "research_methods",
-		"title": "Improving research methods in computing education",
-		"description": "This work aims to improve the rigor and clarity of research practices in the computing education research community.",
+		"title": "Improving research methods and constructs in computing education",
+		"description": "This work aims to improve the rigor and clarity of research practices and constructs in the computing education research community.",
 		"theme": "Computing Education Research Methods",
 		"status": "current",
 		"startYear": 2024,
-		"publications": ["thematic_analysis_fieldguide"]
+		"publications": ["thematic_analysis_fieldguide", "adversarial_thinking"]
 	}
 ]
