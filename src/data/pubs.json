@@ -1,22 +1,25 @@
 [
 	{
 		"id": "adversarial_thinking",
-		"status": "accepted",
 		"kind": "refereed conference paper",
 		"authors": ["aadarsh", "brookec", "barbarer", "mjguz"],
 		"year": 2026,
 		"title": "Creative Exploration Meets Time Constraints: Academic and Professional Approaches to Adversarial Thinking",
 		"source": "ACM Conference on Innovation and Technology in Computer Science Education",
 		"publisher": "ACM",
-		"note": "Accepted at ITiCSE 2026. Proceedings forthcoming July 2026."
+		"doi": "https://dl.acm.org/doi/10.1145/3803400.3809323",
+		"contribution": "Finds that while academic literature frames adversarial thinking as open-ended creative exploration, cybersecurity professionals under real time constraints instead rely on a risk-based mindset and institutionalized adversarial knowledge, deploying deeper creative analysis only when standardized checklists fall short."
 	},
 	{
 		"id": "teaching_empathy_ethics",
-		"status": "accepted",
+		"kind": "refereed conference paper",
+		"authors": ["Scott D. Dexter", "Linjue Wang", "Laura E. Bland", "Sara L. Hoffman", "aadarsh"],
 		"year": 2026,
-		"title": "WIP: Teaching Empathy, Leadership, and Ethics in Computing",
+		"title": "Teaching Empathy, Leadership, and Ethics in Computing",
 		"source": "American Society for Engineering Education Annual Conference",
-		"note": "Accepted at ASEE 2026. Proceedings forthcoming."
+		"publisher": "ASEE",
+		"doi": "https://nemo.asee.org/public/conferences/374/papers/52293/view",
+		"contribution": "Describes a cross-unit undergraduate CS course using real-world case studies to build students' empathy, power analysis, and inclusive design skills."
 	},
 	{
 		"id": "genai_contracts",
@@ -26,7 +29,7 @@
 		"title": "Self-Regulated Personal Contracts as a Harm Reduction Approach to Generative AI in Undergraduate Programming Education",
 		"source": "ACM Conference on Innovation and Technology in Computer Science Education",
 		"publisher": "ACM",
-		"doi": "https://arxiv.org/abs/2604.03256",
+		"doi": "https://dl.acm.org/doi/10.1145/3803400.3809314",
 		"contribution": "A self-regulated learning contract intervention grounded in harm reduction helped students without established GenAI practices form intentional approaches, but awareness alone did not sustain behavior change as students who valued their guidelines still abandoned them under various pressures."
 	},
 	{

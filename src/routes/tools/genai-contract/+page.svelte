@@ -11,8 +11,8 @@
     <h2>Related Paper</h2>
     <ul>
         <li>
-            <a href="/papers/genai_contracts.pdf">Self-Regulated Personal Contracts as a Harm Reduction Approach to Generative AI in Undergraduate Programming Education</a>
-            — ITiCSE 2026 (preprint)
+            <a href="https://dl.acm.org/doi/10.1145/3803400.3809314">Self-Regulated Personal Contracts as a Harm Reduction Approach to Generative AI in Undergraduate Programming Education</a>
+            — ITiCSE 2026
         </li>
     </ul>
 </section>
